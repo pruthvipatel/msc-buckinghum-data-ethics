@@ -1,0 +1,17 @@
+deon
+ipykernel
+ipython
+ipython-genutils
+ipywidgets
+jupyter-client
+jupyter-console
+jupyter-core
+matplotlib
+nbconvert
+nbformat
+notebook
+numpy
+pandas
+scikit-learn
+seaborn
+wget
