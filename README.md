@@ -42,24 +42,33 @@ We encourage you to take notes in your `ethics.md` file.
 jupyter notebook
 ```
 
-<a name="abstract"/>
-
 ## About the workshop
 
-> Our goal is for every data scientist to practice data ethics as part of their regular work. In this workshop, you will learn how to make data ethics actionable as a data scientist.
->
-> We will present an approach to data ethics based on integrating an ethics checklist into your existing data science workflow. We will be using deon (http://deon.drivendata.org), a lightweight, open-source command line tool designed to easily create and incorporate an ethics checklist into your work. The goal is to enable teams to flexibly carry out the ethical discussions most relevant to them, and to preemptively address issues they may otherwise overlook. There has been much ongoing reflection and dialogue within the data science profession about what ethical principles to abide by, especially in the form of ethical codes and oaths. However, there is often still a gap between those principles and the day-to-day work of data scientists—tenets are either too abstract or too rigid to apply readily. Deon and the checklist framework we present encourages an upfront and ongoing dialogue about the different ethical aspects of your project. By closely integrating data ethics into an ongoing workflow, we as data scientists can cultivate ethical intentionality in our work.
->
-> Throughout this interactive workshop, we will explain the rationale behind building deon, walk through the default checklist content, and provide concrete examples of times where overlooking topics on the ethics checklist has caused unnecessary headache or harm. Using real stories of improperly hashed NYC taxi data, skewed training sets used in crime prediction, biased geometry in embedding spaces, and more, you will consider and discuss a diverse set of ethical issues common in the course of data science work.
->
-> Come learn how to jumpstart the ethics conversation that all data science teams should be having.
->
-> **Key takeaways:**
->
-> - Checklists connect principle to practice and enable data scientists to exercise their data ethics muscles, becoming better at issue-spotting, mitigation, and navigating subtle discussions.
-> - Having a structured process for data ethics makes it easier for teams to have tough conversations and helps ensure that important work doesn't get overlooked.
-> - Working through the ethics checklist in deon can help preempt ethical problems down the line.
->
-> **Target audience:**
->
-> This workshop is intended for data scientists and managers—the practitioners that have influence over how data science gets done. This means anyone who spends their days working directly with data, in the realm of data collection, data storage, analysis, modeling and/or deployment.
+This workshop presents an approach to data ethics based on integrating an ethics checklist into your existing data science workflow. We will use `deon` (http://deon.drivendata.org), a lightweight, open-source command line tool that outlines the key questions data scientists should consider at each stage of a project. We will explain the rationale behind building `deon`, consider real-world stories of ethical pitfalls, and then attendees will practice applying the principles of `deon` through discussion and an interactive coding exercise.
+
+> Our goal is for every data scientist to practice data ethics as part of their regular work, so that we are all more intentional in our choices and more aware of their ethical implications.
+
+Come learn how to jumpstart the ethics conversations that all data science teams should be having.
+
+### Key takeaways
+
+- There is no one right answer. Tradeoffs are inevitable and reasonable people can disagree. Tradeoff calculations will depend on your specific use case and context.
+- Ethics need to be actively considered throughout a project, not just at the beginning.
+- Good intention are not enough. To minimize the risk of harm, you have to intentionally consider possible consequences.
+- A model trained on data from a world with inequality will likely learn to be unequal.
+
+### About `deon`
+
+<a href="http://deon.drivendata.org/"><img src="https://s3.amazonaws.com/drivendata-public-assets/deon.png" width=200/></a>
+
+`deon` (http://deon.drivendata.org) is a lightweight, open-source command line tool designed to easily create and incorporate an ethics checklist into your work. The goal is to enable teams to flexibly carry out the ethical discussions most relevant to them, and to preemptively address issues they may otherwise overlook. 
+
+There has been much ongoing reflection and dialogue within the data science profession about what ethical principles to abide by, especially in the form of ethical codes and oaths. However, there is often still a gap between those principles and the day-to-day work of data scientists—tenets are either too abstract or too rigid to apply readily. `deon` and the checklist framework we present encourages an upfront and ongoing dialogue about the different ethical aspects of your project. By closely integrating data ethics into an ongoing workflow, we as data scientists can cultivate ethical intentionality in our work.
+
+- Checklists connect principle to practice and enable data scientists to exercise their data ethics muscles, becoming better at issue-spotting, mitigation, and navigating subtle discussions.
+- Having a structured process for data ethics makes it easier for teams to have tough conversations and helps ensure that important work doesn't get overlooked.
+- Working through the ethics checklist in `deon` can help preempt ethical problems down the line.
+
+### Target audience
+
+This workshop is intended for data scientists and managers—the practitioners that have influence over how data science gets done. This means anyone who spends their days working directly with data, in the realm of data collection, data storage, analysis, modeling and/or deployment.
