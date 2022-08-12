@@ -2,8 +2,6 @@
 
 Repository for the workshop given to the MSc in applied data science at the University of Buckingham on August 19, 2022.
 
-Presentation Slides: ##TODO##
-
 ## Installation Instructions
 
 1. Clone this repository
@@ -25,22 +23,6 @@ Presentation Slides: ##TODO##
     ```shell
     pip install -r requirements.txt
     ```
-
-### Group Case Study Instructions
-
-```shell
-deon -o ethics.md
-```
-
-The case study prompts are in the slack channel.
-
-We encourage you to take notes in your `ethics.md` file.
-
-### Eviction Data Case Study Instructions
-
-```shell
-jupyter notebook
-```
 
 ## About the workshop
 
