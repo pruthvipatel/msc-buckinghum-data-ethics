@@ -2,6 +2,8 @@
 
 Repository for the workshop given to MSc in applied data science students at the University of Buckingham on August 19, 2022.
 
+Presentation slides: [slides.pdf](slides.pdf)
+
 ## Installation Instructions
 
 1. Clone this repository into a folder in your current directory:
