@@ -59,7 +59,11 @@ This workshop is intended for data scientists and managers—the practitioners t
 
 1. Open your terminal
    
-2. Navigate to the folder with your cloned version of the workshop repository: `cd msc-buckingham-data-ethics`
+2. Navigate to the folder with your cloned version of the workshop repository, and make sure you have the most recent code: 
+   
+   `cd msc-buckingham-data-ethics`
+   
+   `git pull`
    
 3. Activate your environment: `conda activate msc-buckingham-data-ethics`
    
