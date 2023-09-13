@@ -1,6 +1,6 @@
 # Actionable Ethics for Data Scientists
 
-Repository for the workshop given to MSc in applied data science students at the University of Buckingham on August 19, 2022.
+Repository for the workshop given to MSc in applied data science students at the University of Buckingham in September 2023.
 
 Presentation slides: [slides.pdf](slides.pdf)
 
@@ -59,22 +59,16 @@ This workshop is intended for data scientists and managers—the practitioners t
 
 ## Eviction data case study instructions
 
-1. Open your terminal
-   
-2. Navigate to the folder with your cloned version of the workshop repository, and make sure you have the most recent code: 
-   
-   `cd msc-buckingham-data-ethics`
-   
-   `git pull`
-   
-3. Activate your environment: `conda activate msc-buckingham-data-ethics`
-   
-4. Launch a jupyter notebook: `jupyter notebook`
-   
-5. Open `notebooks/eviction-data-case-study.ipynb`
-   
-6. We’ll walk through the notebook as a group, and break for a few independent coding exercises.
+This activity is planned for Google colab, which allows you to run the code online without any setup required on your computer.
 
-If you need help debugging during any of the exercises, post in the Teams thread for this workshop or send a direct message to one of the DrivenData team members. **We encourage you to collaborate and work together throughout the exercise!**
+1. Download the activity notebook by cloning the Github workshop repository (this respository)
+   - Open a terminal and run `git clone https://github.com/drivendataorg/msc-buckingham-data-ethics.git`
+   - There will now be a folder in your terminal’s current directory called “msc-buckingham-data-ethics”
 
-There is a more comprehensive version of the case study notebook in `notebooks/eviction-data-case-study-reference.ipynb`. You can refer to it if you are stumped during any of the coding exercises, but we strongly encourage solving problems on your own first!
+2. Load the activity notebook into Google colab
+   - Open [Google colab](https://research.google.com/colaboratory/)
+   - Load the activity notebook. Go to File > Upload notebook. From within the new folder on your computer for this repository installed in step 1, select the file `notebooks/eviction-data-case-study.ipynb`
+   
+We’ll walk through the notebook as a group, and break for a few independent coding exercises. If you need help during any of the exercises, post in the Teams thread for this workshop or send a direct message to one of the DrivenData team members. **We encourage you to collaborate and work together throughout the exercise!**
+
+There is a more comprehensive, completed version of the case study notebook in [`notebooks/eviction-data-case-study-reference.ipynb`](https://github.com/drivendataorg/msc-buckingham-data-ethics/blob/master/notebooks/eviction-data-case-study-reference.ipynb). You can refer to it if you are stumped during any of the coding exercises, but we strongly encourage solving problems on your own first.
