@@ -12,53 +12,42 @@ There is a more comprehensive, completed version of the case study notebook in [
 
 Google colab allows you to run the code online without any setup required on your computer.
 
-1. Open your terminal
-
-2. Clone this repository into a folder in your current directory:
+1. Open your terminal, and clone this repository into a folder in your current directory. This will create a folder called “msc-buckingham-data-ethics”
     ```shell
     git clone https://github.com/drivendataorg/msc-buckingham-data-ethics.git
     ```
 
-3. Open [Google colab](https://research.google.com/colaboratory/) online
+2. Open [Google colab](https://research.google.com/colaboratory/) online
 
-4. Load the activity notebook into Google colab. Go to File > Upload notebook. From within the folder on your computer for this repository installed in step 2, select the file `notebooks/eviction-data-case-study.ipynb`
+3. Load the case study notebook into Google colab. Go to File > Upload notebook. From within the folder on your computer for this repository installed in step 2, select the file `notebooks/eviction-data-case-study.ipynb`
 
 #### Locally
 
 You can also run the case study notebook locally.
 
-1. Open your terminal
-
-2. Clone this repository into a folder in your current directory:
+1. Open your terminal, and clone this repository into a folder in your current directory. This will create a folder called “msc-buckingham-data-ethics”
     ```shell
     git clone https://github.com/drivendataorg/msc-buckingham-data-ethics.git
     ```
-    There will now be a folder in your terminal’s current directory called “msc-buckingham-data-ethics”
 
-3. Create a new environment to use for coding during the workshop:
+2. Create a new environment to use for coding during the workshop.  If you don't already have conda, [install Miniconda](https://docs.conda.io/en/latest/miniconda.html) first.
    ```shell
    conda create --name msc-buckingham-data-ethics -y python=3.8
    ```
-   If you don't already have conda, [install Miniconda](https://docs.conda.io/en/latest/miniconda.html) first.
 
-4. Activate the environment
+3. Activate the environment, and then install the necessary python packages using the requirements file in the repository. If you don't have `conda activate` set up, try `source activate msc-buckingham-data-ethics` instead.
     ```shell
     conda activate msc-buckingham-data-ethics
-    ```
-    If you don't have `conda activate` set up, try `source activate msc-buckingham-data-ethics` instead.
-
-5. With the new environment activated, install the necessary python packages using the requirements file in the repository:
-    ```shell
     cd msc-buckingham-data-ethics
     pip install -r requirements.txt
     ```
 
-6. Launch a jupyter notebook while in your `msc-buckingham-data-ethics` environment
-   ```
+4. Launch a jupyter notebook with your `msc-buckingham-data-ethics` environment activated
+   ```shell
    jupyter notebook
    ```
 
-7. Open `notebooks/eviction-data-case-study.ipynb`
+5. Open `notebooks/eviction-data-case-study.ipynb`
 
 ## About the workshop
 
