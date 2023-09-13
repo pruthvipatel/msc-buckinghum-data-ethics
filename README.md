@@ -6,7 +6,7 @@ Repository for the workshop given to MSc in applied data science students at the
 
 The eviction data case study is in `notebooks/eviction-data-case-study.ipynb`. **We encourage you to collaborate and work together throughout the exercise!**
 
-There is a more comprehensive, completed version of the case study notebook in [`notebooks/eviction-data-case-study-reference.ipynb`](https://github.com/drivendataorg/msc-buckingham-data-ethics/blob/master/notebooks/eviction-data-case-study-reference.ipynb). You can refer to it if you are stumped during any of the coding exercises, but we strongly encourage solving problems on your own first.
+There is a more comprehensive, completed version of the case study in [`notebooks/eviction-data-case-study-reference.ipynb`](https://github.com/drivendataorg/msc-buckingham-data-ethics/blob/master/notebooks/eviction-data-case-study-reference.ipynb). You can refer to it if you are stumped during any of the coding exercises, but we strongly encourage solving problems on your own first.
 
 #### In Google colab
 
@@ -19,7 +19,7 @@ Google colab allows you to run the code online without any setup required on you
 
 2. Open [Google colab](https://research.google.com/colaboratory/) online
 
-3. Load the case study notebook into Google colab. Go to File > Upload notebook. From within the folder on your computer for this repository installed in step 2, select the file `notebooks/eviction-data-case-study.ipynb`
+3. Load the case study notebook into Google colab. Go to File > Upload notebook. From within the folder on your computer for this repository installed in step 1, select the file `notebooks/eviction-data-case-study.ipynb`
 
 #### Locally
 
