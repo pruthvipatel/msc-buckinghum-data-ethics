@@ -18,7 +18,7 @@ Google colab allows you to run the code online without any setup required on you
 
 3. Search for `drivendataorg/msc-buckingham-data-ethics/`. Then select the case study notebook, `notebooks/eviction-data-case-study.ipynb`
 
-![Alt text](image.png)
+![Image demonstrating how to load a file from Github into Google colab](references/google_colab_screenshot.png)
 
 #### Locally
 
